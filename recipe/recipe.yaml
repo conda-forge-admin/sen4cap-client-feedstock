@@ -27,14 +27,18 @@ requirements:
     - setuptools
   run:
     - python >=${{ python_min }}
-    - click
+    - httpx
     - pydantic
+    - pydantic-settings
+    - pystac
     - pyyaml
+    - rasterio
+    - rioxarray
     - typer
     - uri-template
-    - httpx
-    - cuiman >=0.1.0
-    - gavicore >=0.1.0
+    - xarray
+    - cuiman >=0.3.1
+    - gavicore >=0.3.0
 
 tests:
   - python:
