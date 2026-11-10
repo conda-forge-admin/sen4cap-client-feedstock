@@ -38,8 +38,8 @@ requirements:
     - typer
     - uri-template
     - xarray
-    - cuiman >=0.3.1
-    - gavicore >=0.3.0
+    - cuiman >=0.4.0
+    - gavicore >=0.4.0
 
 tests:
   - python:
